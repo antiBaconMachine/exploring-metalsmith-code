@@ -1,0 +1,18 @@
+{
+  "name": "mobile-deploy",
+  "version": "0.0.0",
+  "description": "Static generator for mobile deploy site",
+  "main": "index.js",
+  "scripts": {
+    "start": "npm install && node index.js"
+  },
+  "author": "Ollie Edwards <oliver.s.edwards@gmail.com>",
+  "license": "ISC",
+  "devDependencies": {
+    "metalsmith": "~0.8.0",
+    "metalsmith-collections": "~0.4.1",
+    "handlebars": "~2.0.0-alpha.4",
+    "metalsmith-templates": "~0.5.0",
+    "lodash": "~2.4.1"
+  }
+}
